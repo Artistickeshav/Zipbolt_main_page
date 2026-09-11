@@ -35,11 +35,11 @@ export default function HomePage() {
       url: 'https://zipsureai.com/'
     },
     {
-      name: 'EV Champ',
-      logo: '/logos/evchamp-logo.png',
-      title: 'EV Champ — The All-in-One EV Owner App',
-      image: '/solutions/Picture3.png',
-      url: 'http://www.evchamp.in/'
+      name: 'ZipAsset',
+      logo: '/logos/zipasset-logo.png',
+      title: 'ZipAsset — Sustainable Asset Management & Green Mobility Solutions',
+      image: '/solutions/zipasset-card.jpg',
+      url: 'https://zip-invest.vercel.app/'
     },
     {
       name: 'ZipTrax',
@@ -222,7 +222,7 @@ export default function HomePage() {
                       src={solution.image}
                       alt={solution.name}
                       fill
-                      className={`${solution.name === 'EV Champ' ? 'object-contain translate-y-6' : 'object-cover object-top'} group-hover:scale-110 transition-transform duration-500`}
+                      className="object-cover object-center group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full flex items-center space-x-2">
                       <Image

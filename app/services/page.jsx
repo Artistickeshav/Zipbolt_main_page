@@ -30,15 +30,15 @@ const services = [
     image: '/services/zipsure-service.png',
   },
   {
-    name: 'EV Champ',
-    logo: '/logos/evchamp-logo.png',
-    description: 'EV Champ - The All-in-One EV Owner App',
+    name: 'ZipAsset',
+    logo: '/logos/zipasset-logo.png',
+    description: 'ZipAsset - Sustainable Asset Management & Green Mobility Solutions',
     bullets: [
-      'Consumer-facing mobile app bringing battery intelligence, diagnostics, and services to EV users.',
-      'Book diagnostics, locate compatible charging/swap stations, buy or sell used EVs or batteries, and track performance.',
-      'Transparency, convenience, and peace-of-mind - everything an EV owner needs, in one place.',
+      'Comprehensive asset tracking, health monitoring, and valuation for green EV assets.',
+      'Data-driven insights for battery lifecycle management, secondary usage, and asset financing.',
+      'Empowering fleet operators, investors, and enterprise partners with transparent ESG asset intelligence.',
     ],
-    image: '/services/evchamp-service.png',
+    image: '/services/zipasset-service.jpg',
   },
   {
     name: 'Ziptrax Cleantech',
